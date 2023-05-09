@@ -1,0 +1,9 @@
+package com.github.Jvictor12.Dslist.repository;
+
+import com.github.Jvictor12.Dslist.entity.Game;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface GameRepository extends JpaRepository<Game, Long> {
+}
